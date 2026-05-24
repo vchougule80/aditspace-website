@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Adit's space-themed launchpad for Python projects, stories, poems, and experiments.">
+    <title>Adit Space</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Adit Space home">
+        <span class="brand-mark">AS</span>
+        <span>Adit Space</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#code">Code</a>
+        <a href="#writing">Writing</a>
+        <a href="#about">About</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Mission control for code and stories</p>
+          <h1 id="hero-title">Launchpad for small ideas.</h1>
+          <p>
+            Welcome aboard Adit Space: a growing orbit of early Python programs, story worlds,
+            poems, game ideas, and experiments.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#code">View missions</a>
+            <a class="button secondary" href="#writing">Read transmissions</a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a space-themed coding launchpad">
+          <img src="assets/adit-space-hero.svg" alt="">
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="What lives here">
+        <div>
+          <strong>Launch</strong>
+          <span>Python scripts, puzzles, helpers, and tiny games.</span>
+        </div>
+        <div>
+          <strong>Transmit</strong>
+          <span>Stories, poems, reflections, and signal flares of imagination.</span>
+        </div>
+        <div>
+          <strong>Orbit</strong>
+          <span>A timeline of learning, experiments, fixes, and wins.</span>
+        </div>
+      </section>
+
+      <section class="section" id="code" aria-labelledby="code-title">
+        <div class="section-heading">
+          <p class="eyebrow">Flight deck</p>
+          <h2 id="code-title">Code Missions</h2>
+        </div>
+        <div class="project-grid">
+          <article class="card">
+            <div class="card-topline">
+              <span class="tag">Python</span>
+              <span class="date">Mission 01</span>
+            </div>
+            <h3>Number Guessing Game</h3>
+            <p>A classic terminal mission where the computer hides a secret number and sends hints.</p>
+            <pre><code>secret = 7
+guess = int(input("Guess: "))
+print("You found it!" if guess == secret else "Try again")</code></pre>
+          </article>
+
+          <article class="card">
+            <div class="card-topline">
+              <span class="tag">Python</span>
+              <span class="date">Mission 02</span>
+            </div>
+            <h3>Story Generator</h3>
+            <p>A tiny program that mixes characters, places, and surprises into fresh story coordinates.</p>
+            <pre><code>characters = ["wizard", "robot", "detective"]
+places = ["moon base", "library", "forest"]
+print(f"A {characters[1]} in a {places[0]}")</code></pre>
+          </article>
+
+          <article class="card add-card">
+            <h3>Add the next launch</h3>
+            <p>Replace this card with a real program, what it does, and a favorite code snippet.</p>
+            <a href="README.md">Update guide</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section writing-band" id="writing" aria-labelledby="writing-title">
+        <div class="section-heading">
+          <p class="eyebrow">Signal archive</p>
+          <h2 id="writing-title">Transmissions</h2>
+        </div>
+        <div class="writing-list">
+          <article class="writing-piece">
+            <p class="piece-type">Story signal</p>
+            <h3>The Library on Mars</h3>
+            <p>
+              Every Friday, the Mars library rearranged itself. Adit was the first person to
+              notice that one shelf always pointed toward Earth.
+            </p>
+          </article>
+          <article class="writing-piece">
+            <p class="piece-type">Poem signal</p>
+            <h3>Debugging the Moon</h3>
+            <p>
+              A poem can live here with line breaks, rhythm, and the odd little sparks that
+              make it sound like him.
+            </p>
+          </article>
+          <article class="writing-piece">
+            <p class="piece-type">Captain's log</p>
+            <h3>What I Learned This Orbit</h3>
+            <p>
+              A simple place to write about what was tricky, what finally clicked, and what
+              he wants to try next.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div class="about-copy">
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">Piloted by a young maker.</h2>
+          <p>
+            This site is for publishing early work proudly. Some missions may be unfinished,
+            surprising, silly, or experimental. That is part of the adventure.
+          </p>
+        </div>
+        <div class="note">
+          <h3>Parent note</h3>
+          <p>
+            Keep personal details private. Publish first name only, avoid school/location
+            details, and review comments or contact links before adding them.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Adit Space</span>
+      <span>Built for aditspace.com</span>
+    </footer>
+  </body>
+</html>

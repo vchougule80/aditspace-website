@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 640" role="img" aria-labelledby="title desc">
+  <title id="title">Adit Space coding launchpad</title>
+  <desc id="desc">A space-themed illustration with a laptop command center, rocket, planets, orbit rings, and code.</desc>
+  <defs>
+    <radialGradient id="space" cx="48%" cy="40%" r="70%">
+      <stop offset="0" stop-color="#1f2f63"/>
+      <stop offset=".55" stop-color="#101a3b"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </radialGradient>
+    <linearGradient id="rocket" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".52" stop-color="#dff6ff"/>
+      <stop offset="1" stop-color="#8cc9ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity=".36"/>
+    </filter>
+  </defs>
+
+  <rect width="680" height="640" rx="48" fill="url(#space)"/>
+  <g fill="#fff8d6" opacity=".9">
+    <circle cx="74" cy="92" r="3"/>
+    <circle cx="144" cy="188" r="2"/>
+    <circle cx="572" cy="94" r="3"/>
+    <circle cx="610" cy="272" r="2"/>
+    <circle cx="128" cy="506" r="3"/>
+    <circle cx="512" cy="548" r="2"/>
+    <circle cx="316" cy="86" r="2"/>
+    <circle cx="418" cy="142" r="3"/>
+  </g>
+
+  <ellipse cx="340" cy="338" rx="238" ry="104" fill="none" stroke="#58c7ff" stroke-width="4" opacity=".42"/>
+  <ellipse cx="340" cy="338" rx="284" ry="142" fill="none" stroke="#ffd166" stroke-width="3" opacity=".34" transform="rotate(-13 340 338)"/>
+  <ellipse cx="340" cy="338" rx="170" ry="74" fill="none" stroke="#9d7cff" stroke-width="5" opacity=".36" transform="rotate(18 340 338)"/>
+
+  <g filter="url(#glow)">
+    <circle cx="165" cy="182" r="54" fill="#ffd166"/>
+    <circle cx="146" cy="164" r="54" fill="#101a3b"/>
+  </g>
+  <circle cx="536" cy="414" r="42" fill="#50e3a4"/>
+  <path d="M502 407c20 12 47 13 69 2" fill="none" stroke="#0c6a4e" stroke-width="8" stroke-linecap="round" opacity=".45"/>
+
+  <g filter="url(#shadow)">
+    <rect x="176" y="218" width="328" height="206" rx="24" fill="#0b1024" stroke="#9ee3ff" stroke-width="5"/>
+    <rect x="204" y="246" width="272" height="132" rx="12" fill="#f7fbff"/>
+    <path d="M126 424h428l43 70H83l43-70z" fill="#111a30" stroke="#9ee3ff" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M270 448h140l18 24H253l17-24z" fill="#4d6286"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" font-weight="800">
+    <text x="232" y="296" fill="#1f6feb">launch</text>
+    <text x="316" y="296" fill="#111a30">(idea)</text>
+    <text x="232" y="334" fill="#d14f3f">orbit</text>
+    <text x="296" y="334" fill="#111a30">+= story</text>
+    <text x="232" y="362" fill="#1c7c54">print</text>
+    <text x="292" y="362" fill="#111a30">("go")</text>
+  </g>
+
+  <g transform="rotate(25 512 165)">
+    <path d="M501 64c38 20 66 52 78 95-34 30-72 42-115 35-7-44 5-87 37-130z" fill="url(#rocket)" stroke="#f6fbff" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="523" cy="131" r="18" fill="#58c7ff" stroke="#0b1024" stroke-width="6"/>
+    <path d="M463 194l-42 36 60 8z" fill="#ff7a6b" stroke="#f6fbff" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M579 159l36 42-52-6z" fill="#ff7a6b" stroke="#f6fbff" stroke-width="7" stroke-linejoin="round"/>
+    <path d="M460 214c-24 14-40 35-48 62 29-7 50-22 62-46z" fill="#ffd166" filter="url(#glow)"/>
+  </g>
+
+  <g transform="rotate(-14 148 392)">
+    <rect x="72" y="324" width="152" height="126" rx="16" fill="#fff7df" stroke="#f6fbff" stroke-width="7"/>
+    <path d="M104 363h82M104 392h64M104 421h92" stroke="#ff7a6b" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g fill="#ffd166" stroke="#f6fbff" stroke-width="6" stroke-linejoin="round">
+    <path d="M108 284l18 31 31 18-31 18-18 31-18-31-31-18 31-18z"/>
+    <path d="M572 286l12 21 21 12-21 12-12 21-12-21-21-12 21-12z"/>
+  </g>
+</svg>
